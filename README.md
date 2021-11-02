@@ -1,2 +1,2 @@
 # loesungen
-Lösungen für Informatikaufgaben.
+Lösungen für Informatikaufgaben. </br>
