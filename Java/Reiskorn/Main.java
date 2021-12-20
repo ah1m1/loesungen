@@ -4,7 +4,7 @@ public class Main
 {
     public static void main()
     {
-        for(int x = 0; x < 9999; x++) {
+        while (true) {
             System.out.print("Menge Reiskörner >> ");
             Scanner sc = new Scanner(System.in);
             String in = sc.nextLine();
@@ -14,7 +14,7 @@ public class Main
             String gW = sc.nextLine();
             
             System.out.println("Geschätzt:      " + gW);
-            System.out.println("Echtes Gewicht: " + r.getWeight());
+            System.out.println("Echtes Gewicht: " + String.format("%.6f", r.getWeight()));
             
             System.out.println(r.getAmount() + " Reiskörner (" + r.getWeight() + "g) (" + x + ")");
         }
