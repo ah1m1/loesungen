@@ -1,19 +1,8 @@
-
-/**
- * Write a description of class Rice here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Rice
 {
-    // instance variables - replace the example below with your own
     private long iterations;
     private double weight;
-
-    /**
-     * Constructor for objects of class Rice
-     */
+    
     public Rice(long iterations, double weight)
     {
        this.iterations = iterations;
